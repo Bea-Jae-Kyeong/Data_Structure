@@ -2,4 +2,4 @@
 Works and studies on Data structure
 
 
-https://github.com/Bea-Jae-Kyeong/Data_Structure.wiki.git
+https://github.com/Bea-Jae-Kyeong/Data_Structure.wiki
