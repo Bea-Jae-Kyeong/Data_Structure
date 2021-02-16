@@ -6,8 +6,7 @@ int dat[MX];
 int pos = 0;
 
 void push(int x){
-dat[pos]=x;
-pos++;
+dat[pos++]=x;
 }
 
 void pop(){
@@ -15,7 +14,7 @@ pos--;
 }
 
 int top(){
-return dat[pos];
+return dat[pos-1];
 }
 
 void test(){
