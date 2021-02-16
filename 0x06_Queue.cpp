@@ -10,7 +10,7 @@ dat[tail++]=x;
 }
 
 void pop(){
-head--;
+head++;
 }
 
 int front(){
