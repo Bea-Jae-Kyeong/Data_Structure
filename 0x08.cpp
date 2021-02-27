@@ -11,17 +11,17 @@ int main(void){
     int count=0;
     int cut=0;
     int total=0;
-    cin>>s;
+    cin >> s;
     for(auto c:s){
-        if(c=='('){
+        if(c =='('){
             S.push(c);
             count++;
         }
-        else if(c==')'){
+        else if(c == ')'){
             
-            if(count==1){
+            if(count == 1){
                 S.pop();
-                count=0;
+                count = 0;
             }
             
             
@@ -33,11 +33,11 @@ int main(void){
             }
         }
         if(S.empty()){
-           total+=count*(cut+1); 
+           total += count*(cut+1); 
         }
         
     }
-    cout<< total;
+    cout << total;
     
     
 }
